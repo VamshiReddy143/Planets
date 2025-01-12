@@ -8,7 +8,7 @@ const Navbar = () => {
     
       <div className="flex items-center">
         <img src="../public/assets/shared/logo.svg" alt="Logo" />
-        <div className="relative  w-[40em] bg-white ml-[50px] h-[1px]  backdrop-blur-2xl bg-white/30 z-50  max-md:hidden" />
+        <div className="relative  w-[40em] bg-white ml-[50px] h-[1px]  backdrop-blur-2xl bg-white/30 z-50  " />
       </div>
 
     
@@ -21,7 +21,7 @@ const Navbar = () => {
               : 'hover:border-b-2 hover:border-gray-400 pb-2'
           }
         >
-          <strong className="mr-4 max-md:hidden">00</strong>HOME
+          <strong className="mr-4 ">00</strong>HOME
         </NavLink>
 
         <NavLink
@@ -32,7 +32,7 @@ const Navbar = () => {
               : 'hover:border-b-2 hover:border-gray-400 pb-2'
           }
         >
-          <strong className="mr-4 max-md:hidden">01</strong>DESTINATION
+          <strong className="mr-4 ">01</strong>DESTINATION
         </NavLink>
 
         <NavLink
@@ -43,7 +43,7 @@ const Navbar = () => {
               : 'hover:border-b-2 hover:border-gray-400 pb-2'
           }
         >
-          <strong className="mr-4 max-md:hidden">02</strong>CREW
+          <strong className="mr-4 ">02</strong>CREW
         </NavLink>
 
         <NavLink
@@ -54,7 +54,7 @@ const Navbar = () => {
               : 'hover:border-b-2 hover:border-gray-400 pb-2'
           }
         >
-          <strong className="mr-4 max-md:hidden">03</strong>TECHNOLOGY
+          <strong className="mr-4">03</strong>TECHNOLOGY
         </NavLink>
       </div>
     </div>
