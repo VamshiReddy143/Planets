@@ -3,7 +3,7 @@ import React from 'react'
 const Technology = () => {
   return (
     <div className="w-[100%] h-screen overflow-hidden ">
-        <img className="w-full h-full object-cover"  src='../public/assets/crew/background-crew-desktop.jpg'/>
+        <img className="w-full h-full object-cover"  src='/assets/crew/background-crew-desktop.jpg'/>
 
         <div className='absolute top-[22%] left-[15%]'>
               <h1 className='text-white text-[30px]'><strong className='mr-7'>03</strong>SPACE LAUNCH 101</h1>
@@ -32,7 +32,7 @@ const Technology = () => {
         </div>
 
         
-         <img className='top-[-23%] left-[120%]  absolute  overflow-hidden ' src='../public/assets/technology/image-launch-vehicle-portrait.jpg'/>
+         <img className='top-[-23%] left-[120%]  absolute  overflow-hidden ' src='/assets/technology/image-launch-vehicle-portrait.jpg'/>
         
 
         </div>

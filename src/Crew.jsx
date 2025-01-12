@@ -3,7 +3,7 @@ import React from 'react'
 const Crew = () => {
   return (
     <div className="w-[100%] h-screen overflow-hidden ">
-        <img className="w-full h-full object-cover"  src='../public/assets/crew/background-crew-desktop.jpg'/>
+        <img className="w-full h-full object-cover"  src='/assets/crew/background-crew-desktop.jpg'/>
 
         <div className='absolute top-[22%] left-[15%]'>
               <h1 className='text-white text-[30px]'><strong className='mr-7'>02</strong>MEET YOUR CREW</h1>
@@ -26,7 +26,7 @@ const Crew = () => {
         </div>
 
         
-         <img className='top-[-23%] left-[120%] absolute  overflow-hidden ' src='../public/assets/crew/image-anousheh-ansari.png'/>
+         <img className='top-[-23%] left-[120%] absolute  overflow-hidden ' src='/assets/crew/image-anousheh-ansari.png'/>
         
 
         </div>

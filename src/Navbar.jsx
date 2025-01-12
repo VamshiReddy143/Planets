@@ -7,7 +7,7 @@ const Navbar = () => {
     <div  className="absolute flex items-center justify-between w-[92%%] left-[4%] top-[5%] ">
     
       <div className="flex items-center">
-        <img src="../public/assets/shared/logo.svg" alt="Logo" />
+        <img src="/assets/shared/logo.svg" alt="Logo" />
         <div className="relative  w-[40em] bg-white ml-[50px] h-[1px]  backdrop-blur-2xl bg-white/30 z-50  " />
       </div>
 

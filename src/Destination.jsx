@@ -3,7 +3,7 @@ import React from 'react'
 const Destination = () => {
   return (
     <div className="w-[100%] h-screen overflow-hidden ">
-        <img className="w-full h-full object-cover"  src='../public/assets/destination/background-destination-desktop.jpg'/>
+        <img className="w-full h-full object-cover"  src='/assets/destination/background-destination-desktop.jpg'/>
     
         <div className='absolute top-[22%] left-[15%]'>
               <h1 className='text-white text-[30px]'><strong className='mr-7'>01</strong>PICK YOUR DESTINATION</h1>
@@ -11,7 +11,7 @@ const Destination = () => {
 
         <div className='flex justify-between absolute top-[35%] left-[15%] text-white'>
             <div className='text-white'>
-               <img  src='../public/assets/destination/image-mars.png'/>
+               <img  src='/assets/destination/image-mars.png'/>
             </div>
             <div className='pl-[20em] '>
               <div className='flex gap-7 pb-2'>

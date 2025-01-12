@@ -5,11 +5,9 @@ const Home = () => {
   return (
     <div  className="w-screen h-screen overflow-hidden">
       {/* Change img to div for background-image */}
-      <div
+    
+        <img className="w-full h-full bg-cover bg-center" src='/assets/home/background-home-desktop.jpg'/>
       
-      >
-        <img className="w-full h-full bg-cover bg-center" src='../public/assets/home/background-home-desktop.jpg'/>
-      </div>
 
       <div  className="flex top-[45%] left-[10%] absolute text-white">
         <div>
