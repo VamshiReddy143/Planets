@@ -1,10 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import "./Navbar.css"
+
 
 const Navbar = () => {
   return (
-    <div id='container' className="absolute flex items-center justify-between w-[92%%] left-[4%] top-[5%] ">
+    <div  className="absolute flex items-center justify-between w-[92%%] left-[4%] top-[5%] ">
     
       <div className="flex items-center">
         <img src="../public/assets/shared/logo.svg" alt="Logo" />
@@ -12,7 +12,7 @@ const Navbar = () => {
       </div>
 
     
-      <div id='links' className="text-white flex gap-20 backdrop-blur-2xl bg-white/5 pt-8 pb-8 pl-40 pr-60 rounded-lg ">
+      <div  className="text-white flex gap-20 backdrop-blur-2xl bg-white/5 pt-8 pb-8 pl-40 pr-60 rounded-lg ">
         <NavLink
           to="/"
           className={({ isActive }) =>
